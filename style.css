@@ -1,0 +1,63 @@
+
+/*
+* {
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vh;
+    height: 60vh;
+  }
+  
+  .cell {
+    width: 20vh;
+    height: 20vh;
+    font-size: 12vh;
+    border: 3px solid black;
+  }
+*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+#reset {
+    margin-top: 16px;
+}
+
+#board {
+    background-color: #DAB420;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 81vh;
+    width: 81vh;
+}
+
+.grid {
+    border: 1px solid black;
+    width: 27vh;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid:hover {
+    border: 2px solid red;
+    background-color: #DAB;
+}
+
+.taken {
+    background-color: #696969;
+    font-size: 10vh;
+    font-weight: bolder;
+}
+
+.winning {
+    background-color: rgb(87, 17, 87);
+    color: whitesmoke;
+}
