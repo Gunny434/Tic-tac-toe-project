@@ -1,25 +1,3 @@
-
-/*
-* {
-    box-sizing: border-box;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80vh;
-    height: 60vh;
-  }
-  
-  .cell {
-    width: 20vh;
-    height: 20vh;
-    font-size: 12vh;
-    border: 3px solid black;
-  }
-*/
-
-
 * {
     box-sizing: border-box;
 }
@@ -51,6 +29,7 @@
     background-color: #DAB;
 }
 
+/* This class placed lower to ensure that it takes precedent over the hover state, to increase clarity for players. */
 .taken {
     background-color: #696969;
     font-size: 10vh;
